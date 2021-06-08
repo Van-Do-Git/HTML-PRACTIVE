@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Bài 1</h1>
+<button type="button" onclick="a()">Click Me!</button>
+<script>
+    function a() {
+        alert("Xin Chào")
+    }
+</script>
+
+<h1 id="tieude">Bài 2</h1>
+<button type="button" onclick="b()">Click Me</button>
+<script>
+    function b() {
+        document.getElementById("tieude").innerHTML="<h1>Chuyển sang bài 3</h1>";
+    }
+</script>
+<h1>Bài 3</h1>
+<button type="button" onclick="c()">Click Me</button>
+<script>
+    function c() {
+        document.write("Ok chuyển sang bài 4 thôi")
+    }
+</script>
+<h1>Bài 4</h1>
+<button type="button" onclick="d()">Click Me</button>
+<script>
+    function d(){
+        console.log("Chuyển sang bài 5 nào")
+    }
+</script>
+</body>
+</html>
