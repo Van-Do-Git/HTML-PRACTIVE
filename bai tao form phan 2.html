@@ -5,21 +5,55 @@
     <title>Tao form phan 2</title>
 </head>
 <body>
-<form action="abc.com" >
-<fieldset style="padding: 5px;background-color: cadetblue">
-<fieldset style="background-color: chocolate">
+<form action="abc.com" style="background-color: coral;padding: 2px">
 <h3 style="color: blue; background-color: cadetblue;font-size: 30px">ĐĂNG KÝ HỌC VIÊN</h3>
-<pre><label for="hovaten" style="color: blue;font-size: 18px">Họ và tên:      <input id= hovaten type="text" width="50px"></label></pre>
-<pre><label for="ngaysinh" style="color: blue;font-size: 18px">Ngày sinh:      <input id= ngaysinh type="text" width="50px"></label></pre>
-<pre><label for="gioitinh" style="color: blue;font-size: 18px">Giới tính:      <input id= gioitinh type="radio" name="gioitinhh" value="Nam" style="color: black"> Nam<input style="color: black"name="gioitinhh" type="radio" value="Nữ"> Nữ</label></pre>
-    <pre><label for="diachi" style="color: blue;font-size: 18px">Địa chỉ:        <textarea id="diachi" type="text" rows="4px" cols="40px"></textarea></label></pre>
-<pre><label for="chonlop" style="color: blue;font-size: 18px">Lớp:            </label><select id="chonlop"><option>Chọn Lớp</option><option>Lớp A</option><option>Lớp B</option>
-    </select></pre>
-    <pre><label for="email" style="color: blue;font-size: 18px">Email:          <input id= email type="text" width="50px"></label></pre>
-    <pre><label for="dienthoai" style="color: blue;font-size: 18px">Điện thoại:     <input id= dienthoai type="text" width="50px"></label></pre>
-    <div style="padding-left: 159px"><input type="submit" value="Đăng nhập"> <input type="reset" value="Reset"></div>
-</fieldset>
-</fieldset>
+    <table border="1px" style="padding: 1px">
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <label><input type="radio" name="gioitinh">Nam</label>
+                <label><input type="radio" name="gioitinh">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align:top">Địa chỉ:</td>
+            <td><textarea cols="20px" rows="4px"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp:</td>
+            <td>
+                <select type="text" >
+                    <option value="Chonlop">Chọn lớp</option>
+                    <option value="lopa">Lớp A</option>
+                    <option value="lopb">Lớp B</option>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="dienthoai">Điện thoại:</label></td>
+            <td><input type="text" id="dienthoai"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <br>
+                <input type="submit" value="Đăng ký"> <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <
 </form>
 </body>
 </html>
