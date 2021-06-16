@@ -12,6 +12,10 @@
   </component>
   <component name="ProjectId" id="1tpe75J0xPuzCSmXEuF2VclZTvy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -28,6 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623470287953</updated>
       <workItem from="1623470289114" duration="4000" />
+      <workItem from="1623482846930" duration="34000" />
     </task>
     <servers />
   </component>
